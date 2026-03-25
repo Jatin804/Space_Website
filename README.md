@@ -69,7 +69,7 @@ pip install mysqlclient
 Run the following in your MySQL shell:
 
 ```sql
-CREATE DATABASE reviews
+CREATE DATABASE REVIEWS
 CHARACTER SET utf8mb4 
 COLLATE utf8mb4_general_ci;
 ```
@@ -84,7 +84,7 @@ Update your `settings.py`:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'reviews',        # Database name
+        'NAME': 'REVIEWS',        # Database name
         'USER': 'root',           # MySQL username
         'PASSWORD': 'your_password',
         'HOST': 'localhost',
@@ -172,7 +172,8 @@ class Contact(models.Model):
 
 ### 🗄 Django Backend Database
 
-![Screenshot 2024-04-07 111856](https://github.com/Jatin804/Projects/assets/146949850/a801165f-56cf-405b-9b48-10d6a4405b9e)
+![Screenshot 2026-03-25 at 4 52 58 PM](https://github.com/user-attachments/assets/14cd3629-bae3-40c7-8f67-5bff0074a452)
+
 
 ---
 
